@@ -1,6 +1,10 @@
- #include <stdio.h>
+int main()
+{
+    int a = 10;
+    int b = 20;
+    int c;
 
-int main() {
-	printf("Hello, world!\n");
-	return 0;
+    c = a + b;
+
+    return c;
 }
